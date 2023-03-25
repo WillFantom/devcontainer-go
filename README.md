@@ -1,4 +1,4 @@
-# Go Dev Container
+# Go Dev Container    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/tag/willfantom/devcontainer-go?display_name=tag&label=%20&sort=semver)  ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/willfantom/devcontainer-go/release.yml?label=%20&logo=github)
 
 A complete development container for Go for use with VSCode/GitHub Codespaces
 
