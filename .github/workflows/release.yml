@@ -7,9 +7,10 @@ on:
       - "main"
     tags:
       - "v*"
-    paths-ignore:
-      - "README.md"
-      - "devcontainer.json"
+    paths:
+      - "Dockerfile"
+      - "LICENSE"
+      - ".github/workflows/release.yml"
 
 jobs:
   release_image:
