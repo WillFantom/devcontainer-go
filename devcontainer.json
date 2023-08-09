@@ -3,11 +3,15 @@
   "image": "ghcr.io/willfantom/devcontainer-go:latest",
   "workspaceMount": "source=${localWorkspaceFolder}/,target=/workspace,type=bind,consistency=cached",
   "workspaceFolder": "/workspace",
-  "extensions": [
-    "golang.go"
-  ],
   "features": {
     "ghcr.io/willfantom/features/dotfiles:1": {}
   },
-  "settings": {}
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ],
+      "settings": {}
+    }
+  }
 }
