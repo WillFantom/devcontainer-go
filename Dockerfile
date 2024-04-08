@@ -1,4 +1,4 @@
-FROM golang:1.22.1-bullseye
+FROM golang:1.22.2-bullseye
 
 RUN go install github.com/fatih/gomodifytags@latest && \
     go install github.com/cweill/gotests/gotests@latest && \
